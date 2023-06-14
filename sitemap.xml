@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhanglianlei.cn/about/index.html</loc>
+    
+    <lastmod>2023-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zhanglianlei.cn/tags/index.html</loc>
     
     <lastmod>2022-06-13</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>http://zhanglianlei.cn/categories/index.html</loc>
-    
-    <lastmod>2022-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhanglianlei.cn/about/index.html</loc>
     
     <lastmod>2022-06-13</lastmod>
     
@@ -133,13 +133,6 @@
   </url>
   
   <url>
-    <loc>http://zhanglianlei.cn/tags/UltraEdit/</loc>
-    <lastmod>2023-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zhanglianlei.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -147,14 +140,14 @@
   </url>
   
   <url>
-    <loc>http://zhanglianlei.cn/tags/Exception-MyEclipse/</loc>
+    <loc>http://zhanglianlei.cn/tags/UltraEdit/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://zhanglianlei.cn/tags/Windows-10/</loc>
+    <loc>http://zhanglianlei.cn/tags/Exception-MyEclipse/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -169,6 +162,13 @@
   
   <url>
     <loc>http://zhanglianlei.cn/tags/%E9%97%B2%E8%B0%88/</loc>
+    <lastmod>2023-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhanglianlei.cn/tags/Windows-10/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://zhanglianlei.cn/categories/%E8%BD%AF%E4%BB%B6-%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://zhanglianlei.cn/categories/%E9%97%B2%E8%B0%88/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://zhanglianlei.cn/categories/%E9%97%B2%E8%B0%88/</loc>
+    <loc>http://zhanglianlei.cn/categories/%E8%BD%AF%E4%BB%B6-%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2023-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

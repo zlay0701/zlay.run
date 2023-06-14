@@ -17,13 +17,13 @@
 </blockquote>
 <hr>
 <blockquote>
-<p><strong>#一部电影，一句动人台词# 不管我怎样的努力，心与心之间也不会靠近一厘米。—《极速五厘米》</strong><br><img src="/p/2016-05-19-longtimenosee/2016-05-19-longtimenosee_1.jpg"></p>
+<p><strong>#一部电影，一句动人台词# 不管我怎样的努力，心与心之间也不会靠近一厘米。—《极速五厘米》</strong><br><img src="/p/2016-05-19-longtimenosee.htm/2016-05-19-longtimenosee_1.jpg"></p>
 </blockquote>
 <blockquote>
-<p><img src="/p/2016-05-19-longtimenosee/2016-05-19-longtimenosee_2.jpg"></p>
+<p><img src="/p/2016-05-19-longtimenosee.htm/2016-05-19-longtimenosee_2.jpg"></p>
 </blockquote>
 <blockquote>
-<p><img src="/p/2016-05-19-longtimenosee/2016-05-19-longtimenosee_3.jpg"></p>
+<p><img src="/p/2016-05-19-longtimenosee.htm/2016-05-19-longtimenosee_3.jpg"></p>
 </blockquote>
 <blockquote>
 <p>转自:<a href="http://music.163.com/#/activity/3591050?userid=39785770" title="网易云音乐">网易云音乐</a></p>
@@ -52,8 +52,8 @@
 <li><p>2）对于n字节的符号（n&gt;1），第一个字节的前n位都设为1，第n+1位设为0，后面字节的前两位一律设为10。剩下的没有提及的二进制位，全部为这个符号的unicode码。</p>
 </li>
 </ul>
-<p>下表总结了编码规则，字母x表示可用编码的位。<br><img src="/p/2016-05-23-ASCII-Unicode-UTF-8/2016-05-23-ASCII-Unicode-UTF-8_1.jpg"><br>跟据上表，解读UTF-8编码非常简单。如果一个字节的第一位是0，则这个字节单独就是一个字符；如果第一位是1，则连续有多少个1，就表示当前字符占用多少个字节。<br>下面，还是以汉字”严”为例，演示如何实现UTF-8编码。<br>已知”严”的unicode是4E25（100111000100101），根据上表，可以发现4E25处在第三行的范围内（0000 0800-0000 FFFF），因此”严”的UTF-8编码需要三个字节，即格式是”1110xxxx 10xxxxxx 10xxxxxx”。然后，从”严”的最后一个二进制位开始，依次从后向前填入格式中的x，多出的位补0。这样就得到了，”严”的UTF-8编码是”11100100 10111000 10100101”，转换成十六进制就是E4B8A5。</p>
-<h3 id="6-Unicode与UTF-8之间的转换"><a href="#6-Unicode与UTF-8之间的转换" class="headerlink" title="6. Unicode与UTF-8之间的转换"></a>6. Unicode与UTF-8之间的转换</h3><p>通过上一节的例子，可以看到”严”的Unicode码是4E25，UTF-8编码是E4B8A5，两者是不一样的。它们之间的转换可以通过程序实现。<br>在Windows平台下，有一个最简单的转化方法，就是使用内置的记事本小程序Notepad.exe。打开文件后，点击”文件”菜单中的”另存为”命令，会跳出一个对话框，在最底部有一个”编码”的下拉条。<br><img src="/p/2016-05-23-ASCII-Unicode-UTF-8/2016-05-23-ASCII-Unicode-UTF-8_2.jpg"><br>里面有四个选项：ANSI，Unicode，Unicode big endian 和 UTF-8。</p>
+<p>下表总结了编码规则，字母x表示可用编码的位。<br><img src="/p/2016-05-23-ASCII-Unicode-UTF-8.htm/2016-05-23-ASCII-Unicode-UTF-8_1.jpg"><br>跟据上表，解读UTF-8编码非常简单。如果一个字节的第一位是0，则这个字节单独就是一个字符；如果第一位是1，则连续有多少个1，就表示当前字符占用多少个字节。<br>下面，还是以汉字”严”为例，演示如何实现UTF-8编码。<br>已知”严”的unicode是4E25（100111000100101），根据上表，可以发现4E25处在第三行的范围内（0000 0800-0000 FFFF），因此”严”的UTF-8编码需要三个字节，即格式是”1110xxxx 10xxxxxx 10xxxxxx”。然后，从”严”的最后一个二进制位开始，依次从后向前填入格式中的x，多出的位补0。这样就得到了，”严”的UTF-8编码是”11100100 10111000 10100101”，转换成十六进制就是E4B8A5。</p>
+<h3 id="6-Unicode与UTF-8之间的转换"><a href="#6-Unicode与UTF-8之间的转换" class="headerlink" title="6. Unicode与UTF-8之间的转换"></a>6. Unicode与UTF-8之间的转换</h3><p>通过上一节的例子，可以看到”严”的Unicode码是4E25，UTF-8编码是E4B8A5，两者是不一样的。它们之间的转换可以通过程序实现。<br>在Windows平台下，有一个最简单的转化方法，就是使用内置的记事本小程序Notepad.exe。打开文件后，点击”文件”菜单中的”另存为”命令，会跳出一个对话框，在最底部有一个”编码”的下拉条。<br><img src="/p/2016-05-23-ASCII-Unicode-UTF-8.htm/2016-05-23-ASCII-Unicode-UTF-8_2.jpg"><br>里面有四个选项：ANSI，Unicode，Unicode big endian 和 UTF-8。</p>
 <ul>
 <li><p>1）ANSI是默认的编码方式。对于英文文件是ASCII编码，对于简体中文文件是GB2312编码（只针对Windows简体中文版，如果是繁体中文版会采用Big5码）。</p>
 </li>
@@ -94,20 +94,6 @@
       </tags>
   </entry>
   <entry>
-    <title>UltraEdit的配置</title>
-    <url>//p/2016-05-25-set-UltraEdit.html</url>
-    <content><![CDATA[<h3 id="1-解决-禁止自动生成同名bak文件"><a href="#1-解决-禁止自动生成同名bak文件" class="headerlink" title="1.解决:禁止自动生成同名bak文件"></a>1.解决:禁止自动生成同名bak文件</h3><span id="more"></span>
-<p><img src="/p/2016-05-25-set-UltraEdit/UltraEdit%E9%85%8D%E7%BD%AE_1.png"></p>
-<h3 id="2-解决-禁止总是提醒”希望转换file到dos格式吗”"><a href="#2-解决-禁止总是提醒”希望转换file到dos格式吗”" class="headerlink" title="2.解决:禁止总是提醒”希望转换file到dos格式吗”"></a>2.解决:禁止总是提醒”希望转换file到dos格式吗”</h3><p><img src="/p/2016-05-25-set-UltraEdit/UltraEdit%E9%85%8D%E7%BD%AE_2.png"></p>
-]]></content>
-      <categories>
-        <category>软件&amp;配置</category>
-      </categories>
-      <tags>
-        <tag>UltraEdit</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>技术类博客网站推荐</title>
     <url>//p/2016-05-26-blog-recommended.html</url>
     <content><![CDATA[<p>首先呢，就是推荐技术类网站</p>
@@ -125,10 +111,24 @@
       </tags>
   </entry>
   <entry>
+    <title>UltraEdit的配置</title>
+    <url>//p/2016-05-25-set-UltraEdit.html</url>
+    <content><![CDATA[<h3 id="1-解决-禁止自动生成同名bak文件"><a href="#1-解决-禁止自动生成同名bak文件" class="headerlink" title="1.解决:禁止自动生成同名bak文件"></a>1.解决:禁止自动生成同名bak文件</h3><span id="more"></span>
+<p><img src="/p/2016-05-25-set-UltraEdit.htm/UltraEdit%E9%85%8D%E7%BD%AE_1.png"></p>
+<h3 id="2-解决-禁止总是提醒”希望转换file到dos格式吗”"><a href="#2-解决-禁止总是提醒”希望转换file到dos格式吗”" class="headerlink" title="2.解决:禁止总是提醒”希望转换file到dos格式吗”"></a>2.解决:禁止总是提醒”希望转换file到dos格式吗”</h3><p><img src="/p/2016-05-25-set-UltraEdit.htm/UltraEdit%E9%85%8D%E7%BD%AE_2.png"></p>
+]]></content>
+      <categories>
+        <category>软件&amp;配置</category>
+      </categories>
+      <tags>
+        <tag>UltraEdit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MyEclipse 异常 Subversion Native Library Not Available解决方案</title>
     <url>//p/2016-07-03-Subversion-Native-Library-Not-Available.html</url>
     <content><![CDATA[<span id="more"></span>
-<p>Windows&#x3D;&gt;<br><img src="/p/2016-07-03-Subversion-Native-Library-Not-Available/2016-07-03-Subversion-Native-Library-Not-Available1.png"><br><a href="http://blog.csdn.net/zp357252539/article/details/44880319">http://blog.csdn.net/zp357252539/article/details/44880319</a></p>
+<p>Windows&#x3D;&gt;<br><img src="/p/2016-07-03-Subversion-Native-Library-Not-Available.htm/2016-07-03-Subversion-Native-Library-Not-Available1.png"><br><a href="http://blog.csdn.net/zp357252539/article/details/44880319">http://blog.csdn.net/zp357252539/article/details/44880319</a></p>
 ]]></content>
       <categories>
         <category>异常处理</category>
@@ -138,22 +138,9 @@
       </tags>
   </entry>
   <entry>
-    <title>WIN10的安装与优化设置</title>
-    <url>//p/2016-08-24-win10-install.html</url>
-    <content><![CDATA[<span id="more"></span>
-<h2 id="启动盘的制作"><a href="#启动盘的制作" class="headerlink" title="启动盘的制作"></a>启动盘的制作</h2><p>234</p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows 10</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MyEclipse2015 Stable 2.0下载+破解+优化+插件安装教程</title>
     <url>//p/2016-08-18-MyEclipse-crack.html</url>
-    <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面:"></a>写在前面:</h2><p>MyEclipse2015下载可以到MyEclipse中文网,下载官方安装包.<br>本教程适用于Windows系统.<br>鉴于MyEclipse2016处于开发测试期也许不稳定,本人推荐使用MyEclipse2015 S2,MyEclipse2015 S3本人测试无法完美破解,会闪退如有谁解决欢迎联系.<br><a href="http://www.myeclipsecn.com/download/">MyEclipse中文网:http://www.myeclipsecn.com/download/</a><br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack1.png"></p>
+    <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面:"></a>写在前面:</h2><p>MyEclipse2015下载可以到MyEclipse中文网,下载官方安装包.<br>本教程适用于Windows系统.<br>鉴于MyEclipse2016处于开发测试期也许不稳定,本人推荐使用MyEclipse2015 S2,MyEclipse2015 S3本人测试无法完美破解,会闪退如有谁解决欢迎联系.<br><a href="http://www.myeclipsecn.com/download/">MyEclipse中文网:http://www.myeclipsecn.com/download/</a><br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack1.png"></p>
 <span id="more"></span>
 
 <hr>
@@ -168,27 +155,27 @@
 <li>在算号器填好Usercode，并生成了SystemId后，点Active</li>
 <li>在Tools点SaveProperites把注册码保存到文件</li>
 <li>把补丁包（patch）里的plugins复制到MyEclipse的plugins覆盖原文件</li>
-<li>最后一步，MyEclipse的安装目录下:<br>\plugins\com.genuitec.eclipse.mobile.phonegap.core_13.0.0.me201504281437\bin\com\genuitec\eclipse\mobile\phonegap\core\internal<br>和\plugins\com.genuitec.eclipse.mobile.phonegap.core_13.0.0.me201504281437\com\genuitec\eclipse\mobile\phonegap\core\internal两个目录下的都要删除<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack2.png"><br>一共4个内部类，<strong>注意,带$符号的</strong>,切记一定要删掉</li>
+<li>最后一步，MyEclipse的安装目录下:<br>\plugins\com.genuitec.eclipse.mobile.phonegap.core_13.0.0.me201504281437\bin\com\genuitec\eclipse\mobile\phonegap\core\internal<br>和\plugins\com.genuitec.eclipse.mobile.phonegap.core_13.0.0.me201504281437\com\genuitec\eclipse\mobile\phonegap\core\internal两个目录下的都要删除<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack2.png"><br>一共4个内部类，<strong>注意,带$符号的</strong>,切记一定要删掉</li>
 <li>破解完成,可以使用了.有问题请留言.</li>
 </ol>
 <h2 id="MyEclipse优化"><a href="#MyEclipse优化" class="headerlink" title="MyEclipse优化"></a>MyEclipse优化</h2><ol>
 <li>建议新建一个工作空间,路径不要有中文和空格.</li>
-<li>更改代码字体,推荐Inconsolata字体,系统自带字体太累眼睛<br> 最适合程序员编程的10款字体和简介下载地址:<br> 链接：<a href="http://pan.baidu.com/s/1hr9yfqO">http://pan.baidu.com/s/1hr9yfqO</a> 密码：krpd<br> <a href="http://www.iplaysoft.com/top10-programming-fonts.html">在线简介:http://www.iplaysoft.com/top10-programming-fonts.html</a><br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack3.png"></li>
-<li>Tomcat安装:推荐在官网下载绿色版Tomcat压缩包,解压就可以使用<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack4.png"></li>
+<li>更改代码字体,推荐Inconsolata字体,系统自带字体太累眼睛<br> 最适合程序员编程的10款字体和简介下载地址:<br> 链接：<a href="http://pan.baidu.com/s/1hr9yfqO">http://pan.baidu.com/s/1hr9yfqO</a> 密码：krpd<br> <a href="http://www.iplaysoft.com/top10-programming-fonts.html">在线简介:http://www.iplaysoft.com/top10-programming-fonts.html</a><br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack3.png"></li>
+<li>Tomcat安装:推荐在官网下载绿色版Tomcat压缩包,解压就可以使用<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack4.png"></li>
 <li>关于汉化,虽然网上有汉化包,但是个人不建议汉化,毕竟选择了编程.</li>
-<li>更改JSP页面默认编码为UTF-8<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack5.png"></li>
-<li>更改MyEclipse编码格式为UTF-8,默认为GBK<br>设置文件编码<br>1.点击Window-&gt;preferences，在左边树菜单中，选择General-&gt;Content Types-&gt;Text，点击text显示下拉树列表<br>2.修改Java Properties File、JavaScript、JSP为UTF-8格式，这儿要注意：修改完一项之后，一定要点击右边的 update 按钮，要不然没更新<br>3.在左边树菜单中选择Myeclipse-&gt;Files and Editors，分别点击以下菜单HTML、JSP、JavaScript、修改各自的Encoding为UTF-8，点击Apply应用<br><a href="http://blog.csdn.net/u013428259/article/details/51376713">http://blog.csdn.net/u013428259/article/details/51376713</a><br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack6.png"></li>
-<li>安装额外的JDK<br>紧接着，在Window –&gt; Preferences –&gt; Java –&gt; Compiler<br>选择JDK编译器级别为1.8，点击Apply。<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack7.png"></li>
-<li>取消MyEclipse在启动时自动验证项目配置文件<br>默认情况下MyEclipse在启动的时候会自动验证每个项目的配置文件，这是一个非常耗时的过程，可以在Preferences窗口依次选择 MyEclipse - Validation，然后在右侧的Validator列表中只保留 Manual 项就可以了。如果需要验证的时候只需要选中文件，然后右键选择 MyEclipse - Run Validation就可以了。把除了manual 下面的全部点掉，build下只留 classpath dependency Validator<br>手工验证方法：<br>在要验证的文件上，单击鼠标右键–&gt;myeclipse–&gt;run validation<br>除XML和JSF外，其它的都可以不选。<br>点击Apply按钮，会弹出Validation Settings Changed提示。<br>可以把所有Build部分的钩取消掉。<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack8.png"></li>
-<li>拼写检查会给我们带来不少的麻烦，我们的方法命名都会是单词的缩写，他也会提示有错，所以最好去掉，没有多大的用处<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack9.png"></li>
-<li>myeclipse 打开 jsp 的默认编辑器不好，会同时打开预览,把默认改成 MyEclipse JSP Editor.<br>考虑到性能，通常如下设置：<br><em>.htm，</em>.html设置为MyEclipse HTML Editor (locked by‘HTML’ content type)<br>*.jsp 设置MyEclipse JSP Editor (locked by‘CSS JSP’ content type)<br>*.xml 设置为MyEclipse XML Editor (locked by‘XML’ content type)<br>设置方法为点击相应的格式，在下面的列表中选择相应编集器名称，然后点击default即可<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack10.png"></li>
-<li>禁用myeclipse updating indexes<br>MyEclipse 总是不停的在 Update index，研究发现Update index…是Maven在下载更新，但很是影响myeclipse的使用速度.禁用办法如下：Window &#x3D;&gt; Preferences &#x3D;&gt; Myeclipse  &#x3D;&gt; Maven4Myeclipse &#x3D;&gt; Maven&#x3D;&gt;取消勾选的Download repository index updates on startup且Maven JDK也选择JDK8。<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack11.png"></li>
-<li>去除不需要加载的模块<br>一个系统20%的功能往往能够满足80%的需求，MyEclipse也不例外，我们在大多数时候只需要20%的系统功能，所以可以将一些不使用的模块禁止加载启动。通过Windows - Preferences打开配置窗口，依次选择左侧的General - Startup and Shutdown，这个时候在右侧就显示出了Eclipse启动时加载的模块，可以根据自己的实际情况去除一些模块。<br>windows–&gt;perferences–&gt;general–&gt;startup and shutdown<br>关掉没用的启动项：<br>怎样才能知道哪些启动项有用呢？我现在把我知道的启动项用处说一下，还有很多不懂的，希望大家懂的回复在下面啊：WTP ：一个跟myeclipse差不多的东西，主要差别是 WTP 是免费的，如果使用myeclipse，这个可以取消Mylyn：组队任务管理工具，类似于 CVS ，以任务为单位管理项目进度，没用到的可以取消Derby：一种保存成 jar 形式的数据库，我没用到，取消一大排以 MyEclipse EASIE 打头的启动项：myeclipse 支持的服务器，只选自己用的，其他取消，比如我只选了tomcat<br>可以关掉的启动项有：<br>JSF辅助开发插件<br>1）ICEfaces Integration for MyEclipse；<br>2）JSF Editor Preview Support for MyEclipse；<br>交付相关的插件<br>3）Delivery Runtime JRE<br>4）Delivery Package Runtime UI等3个<br>5）m2e Marketplace；<br>6）Mylyn Tasks UI和Mylyn Team UI；<br>关闭自动更新<br>7）Equinox Provisioning Platform Automatic Update Support<br>取消下列项：<br>MyEclipse QuickSetup<br>MyEclipse Deby<br>MyEclipse EASIE开头的，只保留你使用的tomcat 5或6或7<br>MyEclipse examples<br>WTP Webservice UI plug-in<br>Automatic update scheduler<br>然后点击Apply<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack12.png"></li>
+<li>更改JSP页面默认编码为UTF-8<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack5.png"></li>
+<li>更改MyEclipse编码格式为UTF-8,默认为GBK<br>设置文件编码<br>1.点击Window-&gt;preferences，在左边树菜单中，选择General-&gt;Content Types-&gt;Text，点击text显示下拉树列表<br>2.修改Java Properties File、JavaScript、JSP为UTF-8格式，这儿要注意：修改完一项之后，一定要点击右边的 update 按钮，要不然没更新<br>3.在左边树菜单中选择Myeclipse-&gt;Files and Editors，分别点击以下菜单HTML、JSP、JavaScript、修改各自的Encoding为UTF-8，点击Apply应用<br><a href="http://blog.csdn.net/u013428259/article/details/51376713">http://blog.csdn.net/u013428259/article/details/51376713</a><br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack6.png"></li>
+<li>安装额外的JDK<br>紧接着，在Window –&gt; Preferences –&gt; Java –&gt; Compiler<br>选择JDK编译器级别为1.8，点击Apply。<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack7.png"></li>
+<li>取消MyEclipse在启动时自动验证项目配置文件<br>默认情况下MyEclipse在启动的时候会自动验证每个项目的配置文件，这是一个非常耗时的过程，可以在Preferences窗口依次选择 MyEclipse - Validation，然后在右侧的Validator列表中只保留 Manual 项就可以了。如果需要验证的时候只需要选中文件，然后右键选择 MyEclipse - Run Validation就可以了。把除了manual 下面的全部点掉，build下只留 classpath dependency Validator<br>手工验证方法：<br>在要验证的文件上，单击鼠标右键–&gt;myeclipse–&gt;run validation<br>除XML和JSF外，其它的都可以不选。<br>点击Apply按钮，会弹出Validation Settings Changed提示。<br>可以把所有Build部分的钩取消掉。<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack8.png"></li>
+<li>拼写检查会给我们带来不少的麻烦，我们的方法命名都会是单词的缩写，他也会提示有错，所以最好去掉，没有多大的用处<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack9.png"></li>
+<li>myeclipse 打开 jsp 的默认编辑器不好，会同时打开预览,把默认改成 MyEclipse JSP Editor.<br>考虑到性能，通常如下设置：<br><em>.htm，</em>.html设置为MyEclipse HTML Editor (locked by‘HTML’ content type)<br>*.jsp 设置MyEclipse JSP Editor (locked by‘CSS JSP’ content type)<br>*.xml 设置为MyEclipse XML Editor (locked by‘XML’ content type)<br>设置方法为点击相应的格式，在下面的列表中选择相应编集器名称，然后点击default即可<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack10.png"></li>
+<li>禁用myeclipse updating indexes<br>MyEclipse 总是不停的在 Update index，研究发现Update index…是Maven在下载更新，但很是影响myeclipse的使用速度.禁用办法如下：Window &#x3D;&gt; Preferences &#x3D;&gt; Myeclipse  &#x3D;&gt; Maven4Myeclipse &#x3D;&gt; Maven&#x3D;&gt;取消勾选的Download repository index updates on startup且Maven JDK也选择JDK8。<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack11.png"></li>
+<li>去除不需要加载的模块<br>一个系统20%的功能往往能够满足80%的需求，MyEclipse也不例外，我们在大多数时候只需要20%的系统功能，所以可以将一些不使用的模块禁止加载启动。通过Windows - Preferences打开配置窗口，依次选择左侧的General - Startup and Shutdown，这个时候在右侧就显示出了Eclipse启动时加载的模块，可以根据自己的实际情况去除一些模块。<br>windows–&gt;perferences–&gt;general–&gt;startup and shutdown<br>关掉没用的启动项：<br>怎样才能知道哪些启动项有用呢？我现在把我知道的启动项用处说一下，还有很多不懂的，希望大家懂的回复在下面啊：WTP ：一个跟myeclipse差不多的东西，主要差别是 WTP 是免费的，如果使用myeclipse，这个可以取消Mylyn：组队任务管理工具，类似于 CVS ，以任务为单位管理项目进度，没用到的可以取消Derby：一种保存成 jar 形式的数据库，我没用到，取消一大排以 MyEclipse EASIE 打头的启动项：myeclipse 支持的服务器，只选自己用的，其他取消，比如我只选了tomcat<br>可以关掉的启动项有：<br>JSF辅助开发插件<br>1）ICEfaces Integration for MyEclipse；<br>2）JSF Editor Preview Support for MyEclipse；<br>交付相关的插件<br>3）Delivery Runtime JRE<br>4）Delivery Package Runtime UI等3个<br>5）m2e Marketplace；<br>6）Mylyn Tasks UI和Mylyn Team UI；<br>关闭自动更新<br>7）Equinox Provisioning Platform Automatic Update Support<br>取消下列项：<br>MyEclipse QuickSetup<br>MyEclipse Deby<br>MyEclipse EASIE开头的，只保留你使用的tomcat 5或6或7<br>MyEclipse examples<br>WTP Webservice UI plug-in<br>Automatic update scheduler<br>然后点击Apply<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack12.png"></li>
 <li>新建JSP模板<br><a href="http://bsr1983.iteye.com/blog/1825808">http://bsr1983.iteye.com/blog/1825808</a><br>我的JSP模板代码如下.<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;%@ page contentType=<span class="string">&quot;text/html; charset=utf-8&quot;</span> language=<span class="string">&quot;java&quot;</span> <span class="keyword">import</span>=<span class="string">&quot;java.util.*,java.sql.*&quot;</span> errorPage=<span class="string">&quot;&quot;</span> pageEncoding=<span class="string">&quot;UTF-8&quot;</span>%&gt;</span><br><span class="line">&lt;%</span><br><span class="line"><span class="type">String</span> <span class="variable">path</span> <span class="operator">=</span> request.getContextPath();</span><br><span class="line"><span class="type">String</span> <span class="variable">basePath</span> <span class="operator">=</span> request.getScheme()+<span class="string">&quot;://&quot;</span>+request.getServerName()+<span class="string">&quot;:&quot;</span>+request.getServerPort()+path+<span class="string">&quot;/&quot;</span>;</span><br><span class="line">%&gt;</span><br><span class="line">&lt;!doctype html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">	 &lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">	 &lt;base href=<span class="string">&quot;&lt;%=basePath%&gt;&quot;</span>&gt;</span><br><span class="line">	</span><br><span class="line">	 &lt;title&gt;My JSP&lt;/title&gt;</span><br><span class="line">	 &lt;meta http-equiv=<span class="string">&quot;pragma&quot;</span> content=<span class="string">&quot;no-cache&quot;</span>&gt;</span><br><span class="line">	 &lt;meta http-equiv=<span class="string">&quot;cache-control&quot;</span> content=<span class="string">&quot;no-cache&quot;</span>&gt;</span><br><span class="line">	 &lt;meta http-equiv=<span class="string">&quot;expires&quot;</span> content=<span class="string">&quot;0&quot;</span>&gt;    </span><br><span class="line">	 &lt;meta http-equiv=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;keyword1,keyword2,keyword3&quot;</span>&gt;</span><br><span class="line">	 &lt;meta http-equiv=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;This is my page&quot;</span>&gt;</span><br><span class="line">	 &lt;!--</span><br><span class="line">		&lt;link rel=<span class="string">&quot;stylesheet&quot;</span> type=<span class="string">&quot;text/css&quot;</span> href=<span class="string">&quot;styles.css&quot;</span>&gt;</span><br><span class="line"> 	 --&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line"></span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt; This is my JSP page.&lt;/h1&gt; &lt;br&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></li>
 <li>额外阅读:<br><a href="http://www.360doc.com/content/14/0321/13/8072791_362437511.shtml" title="MyEclipse优化设置(最详细版本)">http://www.360doc.com/content/14/0321/13/8072791_362437511.shtml</a><br><a href="https://www.evget.com/article/2015/4/29/22307.html">https://www.evget.com/article/2015/4/29/22307.html</a></li>
 </ol>
 <h2 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h2><ol>
-<li>SVN安装,本人采用离线link安装的方式安装的SVN1.6<br> 1.1.官网下载地址:<a href="http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240">http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240</a><br> 1.2.从网下载site-1.6.18.zip文件<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack13.png"><br> 1.3.从中解压出features与 plugins文件夹，复制到D:\myPlugins\svn里面，其实是硬盘任意文件夹,其它的*.xml文件不要。<br> 1.4.在D:\zsoftware\MyEclipse2015\dropins(MyEclipse安装目录)下新建文件svn.link,内容是:path&#x3D;D:\myPlugins\svn保存。<br> 1.5.(味素:这一步不确定，先不要删除)删除E:\MyEclipse\MyEclipse8.5\configuration \org.eclipse.update文件夹<br> 1.6.重启myeclipse就一切正常了。<br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack14.png"></li>
+<li>SVN安装,本人采用离线link安装的方式安装的SVN1.6<br> 1.1.官网下载地址:<a href="http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240">http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240</a><br> 1.2.从网下载site-1.6.18.zip文件<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack13.png"><br> 1.3.从中解压出features与 plugins文件夹，复制到D:\myPlugins\svn里面，其实是硬盘任意文件夹,其它的*.xml文件不要。<br> 1.4.在D:\zsoftware\MyEclipse2015\dropins(MyEclipse安装目录)下新建文件svn.link,内容是:path&#x3D;D:\myPlugins\svn保存。<br> 1.5.(味素:这一步不确定，先不要删除)删除E:\MyEclipse\MyEclipse8.5\configuration \org.eclipse.update文件夹<br> 1.6.重启myeclipse就一切正常了。<br><img src="/p/2016-08-18-MyEclipse-crack.htm/2016-08-18-MyEclipse-crack14.png"></li>
 </ol>
 ]]></content>
       <categories>
@@ -211,6 +198,19 @@
       </categories>
       <tags>
         <tag>闲谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WIN10的安装与优化设置</title>
+    <url>//p/2016-08-24-win10-install.html</url>
+    <content><![CDATA[<span id="more"></span>
+<h2 id="启动盘的制作"><a href="#启动盘的制作" class="headerlink" title="启动盘的制作"></a>启动盘的制作</h2><p>234</p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows 10</tag>
       </tags>
   </entry>
   <entry>

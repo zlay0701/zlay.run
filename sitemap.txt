@@ -1,6 +1,6 @@
+http://zhanglianlei.cn/about/index.html
 http://zhanglianlei.cn/tags/index.html
 http://zhanglianlei.cn/categories/index.html
-http://zhanglianlei.cn/about/index.html
 http://zhanglianlei.cn/p/2017-09-22-i-back.html
 http://zhanglianlei.cn/p/2016-05-18-hello-world.html
 http://zhanglianlei.cn/p/2016-08-24-win10-install.html
@@ -13,16 +13,16 @@ http://zhanglianlei.cn/p/2016-05-19-longtimenosee.html
 http://zhanglianlei.cn/
 http://zhanglianlei.cn/tags/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/
 http://zhanglianlei.cn/tags/Unicode-ASCII-UTF-8-%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/
-http://zhanglianlei.cn/tags/UltraEdit/
 http://zhanglianlei.cn/tags/%E5%8D%9A%E5%AE%A2/
+http://zhanglianlei.cn/tags/UltraEdit/
 http://zhanglianlei.cn/tags/Exception-MyEclipse/
-http://zhanglianlei.cn/tags/Windows-10/
 http://zhanglianlei.cn/tags/MyEclipse/
 http://zhanglianlei.cn/tags/%E9%97%B2%E8%B0%88/
+http://zhanglianlei.cn/tags/Windows-10/
 http://zhanglianlei.cn/tags/Hello-World/
 http://zhanglianlei.cn/categories/%E6%9D%82%E6%96%87/
 http://zhanglianlei.cn/categories/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/
-http://zhanglianlei.cn/categories/%E8%BD%AF%E4%BB%B6-%E9%85%8D%E7%BD%AE/
 http://zhanglianlei.cn/categories/%E9%97%B2%E8%B0%88/
+http://zhanglianlei.cn/categories/%E8%BD%AF%E4%BB%B6-%E9%85%8D%E7%BD%AE/
 http://zhanglianlei.cn/categories/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/
 http://zhanglianlei.cn/categories/Windows/
