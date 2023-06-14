@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>好久不见,味素</title>
-    <url>//p/2016-05-19-longtimenosee/</url>
+    <url>//p/2016-05-19-longtimenosee.html</url>
     <content><![CDATA[<blockquote>
 <p>一部电影，一句动人台词# 我喜欢你在71华氏度的气温里还会感冒  我喜欢你要花上半个小时点三明治  我喜欢你现在皱着眉头 像看一个疯子似的看着我  我喜欢一整天呆在你的身边后 我的衣服上能问到你的香水味  我喜欢你是我每天如睡前最后一个想要讲话的人</p>
 </blockquote>
@@ -38,7 +38,7 @@
   </entry>
   <entry>
     <title>字符编码笔记：ASCII，Unicode和UTF-8</title>
-    <url>//p/2016-05-23-ASCII-Unicode-UTF-8/</url>
+    <url>//p/2016-05-23-ASCII-Unicode-UTF-8.html</url>
     <content><![CDATA[<h3 id="1-ASCII码"><a href="#1-ASCII码" class="headerlink" title="1. ASCII码"></a>1. ASCII码</h3><p>我们知道，在计算机内部，所有的信息最终都表示为一个二进制的字符串。每一个二进制位（bit）有0和1两种状态，因此八个二进制位就可以组合出256种状态，这被称为一个字节（byte）。也就是说，一个字节一共可以用来表示256种不同的状态，每一个状态对应一个符号，就是256个符号，从0000000到11111111。</p>
 <span id="more"></span>
 <p>上个世纪60年代，美国制定了一套字符编码，对英语字符与二进制位之间的关系，做了统一规定。这被称为ASCII码，一直沿用至今。<br>ASCII码一共规定了128个字符的编码，比如空格”SPACE”是32（二进制00100000），大写的字母A是65（二进制01000001）。这128个符号（包括32个不能打印出来的控制符号），只占用了一个字节的后面7位，最前面的1位统一规定为0。</p>
@@ -95,7 +95,7 @@
   </entry>
   <entry>
     <title>UltraEdit的配置</title>
-    <url>//p/2016-05-25-set-UltraEdit/</url>
+    <url>//p/2016-05-25-set-UltraEdit.html</url>
     <content><![CDATA[<h3 id="1-解决-禁止自动生成同名bak文件"><a href="#1-解决-禁止自动生成同名bak文件" class="headerlink" title="1.解决:禁止自动生成同名bak文件"></a>1.解决:禁止自动生成同名bak文件</h3><span id="more"></span>
 <p><img src="/p/2016-05-25-set-UltraEdit/UltraEdit%E9%85%8D%E7%BD%AE_1.png"></p>
 <h3 id="2-解决-禁止总是提醒”希望转换file到dos格式吗”"><a href="#2-解决-禁止总是提醒”希望转换file到dos格式吗”" class="headerlink" title="2.解决:禁止总是提醒”希望转换file到dos格式吗”"></a>2.解决:禁止总是提醒”希望转换file到dos格式吗”</h3><p><img src="/p/2016-05-25-set-UltraEdit/UltraEdit%E9%85%8D%E7%BD%AE_2.png"></p>
@@ -109,7 +109,7 @@
   </entry>
   <entry>
     <title>技术类博客网站推荐</title>
-    <url>//p/2016-05-26-blog-recommended/</url>
+    <url>//p/2016-05-26-blog-recommended.html</url>
     <content><![CDATA[<p>首先呢，就是推荐技术类网站</p>
 <span id="more"></span>
 <p>CSDN<br>51CTO<br>itEye<br>cnBlogs<br>BlogJava<br>BlogRead<br>ChinaUnix<br>Github<br>OSCHINA（oschina）<br>ITPUB(itpub)<br>精华网站：<br>伯乐在线<br>ImportNew<br>Segmentfault<br>InfoQ<br>V2EX<br>互联网网站团队博客：<br>业界大牛的个人博客推荐：<br>互联网，科技博客推荐<br>国内科技博客：<br>本文参考来自，更多详细请参考：</p>
@@ -126,7 +126,7 @@
   </entry>
   <entry>
     <title>MyEclipse 异常 Subversion Native Library Not Available解决方案</title>
-    <url>//p/2016-07-03-Subversion-Native-Library-Not-Available/</url>
+    <url>//p/2016-07-03-Subversion-Native-Library-Not-Available.html</url>
     <content><![CDATA[<span id="more"></span>
 <p>Windows&#x3D;&gt;<br><img src="/p/2016-07-03-Subversion-Native-Library-Not-Available/2016-07-03-Subversion-Native-Library-Not-Available1.png"><br><a href="http://blog.csdn.net/zp357252539/article/details/44880319">http://blog.csdn.net/zp357252539/article/details/44880319</a></p>
 ]]></content>
@@ -139,7 +139,7 @@
   </entry>
   <entry>
     <title>WIN10的安装与优化设置</title>
-    <url>//p/2016-08-24-win10-install/</url>
+    <url>//p/2016-08-24-win10-install.html</url>
     <content><![CDATA[<span id="more"></span>
 <h2 id="启动盘的制作"><a href="#启动盘的制作" class="headerlink" title="启动盘的制作"></a>启动盘的制作</h2><p>234</p>
 ]]></content>
@@ -152,7 +152,7 @@
   </entry>
   <entry>
     <title>MyEclipse2015 Stable 2.0下载+破解+优化+插件安装教程</title>
-    <url>//p/2016-08-18-MyEclipse-crack/</url>
+    <url>//p/2016-08-18-MyEclipse-crack.html</url>
     <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面:"></a>写在前面:</h2><p>MyEclipse2015下载可以到MyEclipse中文网,下载官方安装包.<br>本教程适用于Windows系统.<br>鉴于MyEclipse2016处于开发测试期也许不稳定,本人推荐使用MyEclipse2015 S2,MyEclipse2015 S3本人测试无法完美破解,会闪退如有谁解决欢迎联系.<br><a href="http://www.myeclipsecn.com/download/">MyEclipse中文网:http://www.myeclipsecn.com/download/</a><br><img src="/p/2016-08-18-MyEclipse-crack/2016-08-18-MyEclipse-crack1.png"></p>
 <span id="more"></span>
 
@@ -200,7 +200,7 @@
   </entry>
   <entry>
     <title>我回来了</title>
-    <url>//p/2017-09-22-i-back/</url>
+    <url>//p/2017-09-22-i-back.html</url>
     <content><![CDATA[<p>好久不见</p>
 <span id="more"></span>
 <p>时间过得好快,我胖了…</p>
@@ -215,7 +215,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>//p/2016-05-18-hello-world/</url>
+    <url>//p/2016-05-18-hello-world.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
